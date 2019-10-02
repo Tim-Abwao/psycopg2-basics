@@ -23,5 +23,5 @@ pip install -r requirements.txt
 ```
 3. Finally, launch the notebook
 ```
-jupyter notebook PostgreSQL Basics with Psycopg2.ipynb
+jupyter notebook 'PostgreSQL Basics with Psycopg2.ipynb'
 ```
