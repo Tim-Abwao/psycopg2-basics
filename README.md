@@ -1,27 +1,26 @@
 # PostgreSQL Basics with Psycopg2
-A jupter notebook to explore some of [PostgreSQL](https://www.postgresql.org)'s common features. [Psycopg2](http://initd.org/psycopg/) is "the most popular PostgreSQL adapter for the Python programming language".
+A Jupter notebook to run a few of [PostgreSQL](https://www.postgresql.org)'s commands and SQL queries, in Python, using [Psycopg2](http://initd.org/psycopg/). 
 
-## Prerequisites
-- You'll have to have *both* PostgreSQL and Python installed.
-- Some experience with **PostgreSQL**. PostgreSQL's [manual](https://www.postgresql.org/docs/) has a [tutorial](https://www.postgresql.org/docs/11/tutorial.html), which is a great place for beginners to get started.
-- Experience with **Python**, particularly `pip`, **pandas** and **Jupyter notebooks**.
+Psycopg is "*the most popular PostgreSQL adapter for the Python programming language*".
 
+# Prerequisites
+- You'll need to have [PostgreSQL](https://www.postgresql.org/download/) and Python installed.
+- Please visit the [Psycopg2 installation page](https://www.psycopg.org/docs/install.html#install-from-source) for help on how to resolve all dependencies before installing it.
 
-1. Create a virtual environment (to avoid altering your system's Python state)
-```
+# Getting Started
+1. Download the files, then create a virtual environment to work in:
+```bash
+git clone https://github.com/Tim-Abwao/Psycopg2-Basics.git
+cd Psycopg2-Basics
 python3 -m venv venv
 source venv/bin/activate
 ```
-or for **Windows**
-```
-py -3 -m venv venv
-venv\Scripts\activate
-```
-2. Install the required packages
-```
+
+2. Install the required packages:
+```bash
 pip install -r requirements.txt
 ```
-3. Finally, launch the notebook
-```
+3. Finally, launch the notebook:
+```bash
 jupyter notebook 'PostgreSQL Basics with Psycopg2.ipynb'
 ```
